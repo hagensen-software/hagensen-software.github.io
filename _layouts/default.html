@@ -52,13 +52,13 @@
 		{% elsif page.call_to_action == 'Contact' %}
 			<section class="quote-section">
 				<p class="container editable">
-					<a href="{{ site.baseurl }}/contact/">Contact us</a> today to find out how we can help you. Your first consultation is free.
+					<a href="{{ site.baseurl }}/contact/">Kontakt os</a> for en uformel snak om hvordan vi kan hjælpe jer med jeres behov og ønsker.
 				</p>
 			</section>
 		{% else %}
 			<section class="quote-section">
 				<p class="container editable">
-					<a href="{{ site.baseurl }}/advice/">Read our published advice</a> for an introduction and quick tips on various areas of the law.
+					<a href="{{ site.baseurl }}/about/">Se vores beskrivelse</a> af virksomheden.
 				</p>
 			</section>
 		{% endif %}
@@ -92,7 +92,7 @@
 							<h2>{{ site.data.company.title }}</h2>
 						</li>
 						<li>{{ site.data.company.description }}</li>
-						<li><a href="{{ site.baseurl }}/feed.xml">{% include social-icon.html icon="RSS" %} Subscribe with RSS</a></li>
+						<!-- <li><a href="{{ site.baseurl }}/feed.xml">{% include social-icon.html icon="RSS" %} Subscribe with RSS</a></li> -->
 					</ul>
 				</div>
 			</div>
@@ -100,8 +100,8 @@
 			<div class="legal-line">
 				<p class="container">
 					&copy; {{ site.time | date: '%Y' }} {{ site.data.company.title }} &bull;
-					<a href="{{ site.baseurl }}/terms/">Terms</a>
-					&bull;
+					<!-- <a href="{{ site.baseurl }}/terms/">Terms</a>
+					&bull; -->
 					Template by <a href="http://cloudcannon.com/">CloudCannon</a>
 				</p>
 			</div>

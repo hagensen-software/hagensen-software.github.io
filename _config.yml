@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Justice Template
-url: "https://orchid-heron.cloudvent.net"
+title: Hagensen Software
+url: "https://hagensen-software.com"
 baseurl: 
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -10,15 +10,15 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Jekyll template with example content for a law firm.
+description: Home of Hagensen Software.
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
-social:
-  name: Justice Template
-  links:
-    - https://github.com/CloudCannon/justice-jekyll-template
+# social:
+#   name: Justice Template
+#   links:
+#     - https://github.com/CloudCannon/justice-jekyll-template
 
 # -----
 # Build
@@ -37,8 +37,8 @@ defaults:
       path: ""
     values:
       layout: page
-      background_image_path: /uploads/building.jpg
-      image: /uploads/building.jpg
+      background_image_path: /uploads/logo-large.png
+      image: /uploads/logo-large.png
   -
     scope:
       path: ""
